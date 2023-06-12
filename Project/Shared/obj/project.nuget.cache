@@ -1,8 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "y5sQ54aKVnW9FbVpS7hAmVdTvUJFBHmey0GCQ2KWbTksyqzJtmIQUN2il92m6+uPPrmqnuOY6lmI/fdRAd7d1g==",
+  "dgSpecHash": "8PxgbzN6eWuuJPwkbPJhc4fg5BvlUyYtoaQwCoYlcMTwMdsYNWXTTHEMa7sZnquSNvnNMsWLH8ZOiDt5vVJyhA==",
   "success": true,
   "projectFilePath": "/home/ec2-user/MicroServiceDesignPatterns/Project/Shared/Shared.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/ec2-user/.nuget/packages/masstransit/8.0.16/masstransit.8.0.16.nupkg.sha512",
+    "/home/ec2-user/.nuget/packages/masstransit.abstractions/8.0.16/masstransit.abstractions.8.0.16.nupkg.sha512",
+    "/home/ec2-user/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "/home/ec2-user/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/home/ec2-user/.nuget/packages/microsoft.extensions.diagnostics.healthchecks/6.0.1/microsoft.extensions.diagnostics.healthchecks.6.0.1.nupkg.sha512",
+    "/home/ec2-user/.nuget/packages/microsoft.extensions.diagnostics.healthchecks.abstractions/6.0.1/microsoft.extensions.diagnostics.healthchecks.abstractions.6.0.1.nupkg.sha512",
+    "/home/ec2-user/.nuget/packages/microsoft.extensions.fileproviders.abstractions/6.0.0/microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512",
+    "/home/ec2-user/.nuget/packages/microsoft.extensions.hosting.abstractions/6.0.0/microsoft.extensions.hosting.abstractions.6.0.0.nupkg.sha512",
+    "/home/ec2-user/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.1/microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
+    "/home/ec2-user/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/home/ec2-user/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/home/ec2-user/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "/home/ec2-user/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512",
+    "/home/ec2-user/.nuget/packages/system.reflection.emit.lightweight/4.7.0/system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+    "/home/ec2-user/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/home/ec2-user/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
+    "/home/ec2-user/.nuget/packages/system.text.json/6.0.7/system.text.json.6.0.7.nupkg.sha512",
+    "/home/ec2-user/.nuget/packages/system.threading.channels/6.0.0/system.threading.channels.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

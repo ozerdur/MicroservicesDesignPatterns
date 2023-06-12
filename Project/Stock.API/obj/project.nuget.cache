@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5z5QklYi7KQghh2iZjJZ3bVhvbEJnh5Z2sfRBKGUqs3dOUxJ09gtTS1gWp+3p00n3pD20BPMNyoBm+0o5E1c+Q==",
+  "dgSpecHash": "blFd1nZQbtlU6oZ8Usri1TRC5siSibSu2L4uZN991SyLhAtJ1N3Jh5sPKoPsEOrNRjXeedy9SKNKOcjPXJZ4KA==",
   "success": true,
   "projectFilePath": "/home/ec2-user/MicroServiceDesignPatterns/Project/Stock.API/Stock.API.csproj",
   "expectedPackageFiles": [

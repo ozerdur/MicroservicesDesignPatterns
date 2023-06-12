@@ -11,7 +11,7 @@ Durability: Data should be stored safely
 - Publish:
     
     - Sends to Exchange
-    - The message is lost is no one is listening
+    - The message is lost if no one is listening
 
 - Send:
 

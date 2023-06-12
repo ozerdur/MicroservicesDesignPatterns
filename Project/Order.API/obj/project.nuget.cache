@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LE+JfPXETtslBtrWMKg+wrmcd71yNVzzBlB4TMlkOSnHu9fBxxG9W7g9+5GbYZ0RMshk2QPDxQtb7HLTP9vbkw==",
+  "dgSpecHash": "b4/EkeANJ87rMmEQ3IHjxjd3vrZP+vVeWW5B7yxJ9K65dqa3orUm/MIJw1uJhuCe9DddJEWb+zrrwdmNsWUoxA==",
   "success": true,
   "projectFilePath": "/home/ec2-user/MicroServiceDesignPatterns/Project/Order.API/Order.API.csproj",
   "expectedPackageFiles": [

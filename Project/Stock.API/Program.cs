@@ -12,17 +12,12 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddMassTransit(x=> 
 {
-
     x.AddConsumer<OrderCreatedEventConsumer>();
-    x.AddConsumer<PaymentFailedEventConsumer>();
+    x.AddConsumer<StockRollbackMessageConsumer>();
     x.UsingRabbitMq((context, cfg)=>{
         cfg.Host(builder.Configuration.GetConnectionString("RabbitMQ"));
-        cfg.ReceiveEndpoint(RabbitMQSettingsConst.StockOrderCreatedEventQueueName, e => {
-            e.ConfigureConsumer<OrderCreatedEventConsumer>(context);
-        });
-        cfg.ReceiveEndpoint(RabbitMQSettingsConst.StockPaymentNotCompletedEventQueueName, e => {
-            e.ConfigureConsumer<PaymentFailedEventConsumer>(context);
-        });
+        cfg.ReceiveEndpoint(RabbitMQSettingsConst.StockOrderCreatedEventQueueName, e=>  e.ConfigureConsumer<OrderCreatedEventConsumer>(context));
+        cfg.ReceiveEndpoint(RabbitMQSettingsConst.StockRollBackMessageQueueName, e=>  e.ConfigureConsumer<StockRollbackMessageConsumer>(context));
         cfg.ConfigureEndpoints(context);
     });
 });

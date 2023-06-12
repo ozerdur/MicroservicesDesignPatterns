@@ -785,6 +785,9 @@
         }
       },
       "Shared/1.0.0": {
+        "dependencies": {
+          "MassTransit": "8.0.16"
+        },
         "runtime": {
           "Shared.dll": {}
         }
