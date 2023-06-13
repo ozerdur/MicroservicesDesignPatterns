@@ -54,3 +54,10 @@ Durability: Data should be stored safely
 - Has a notification system to listen saved events
 - Open source
 - Can be communicated via http or tcp
+
+
+## Resiliency
+The ability of software to heal from unexpected events 
+
+### Retry Pattern
+### Circuit Breaker Pattern

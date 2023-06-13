@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "dgSpecHash": "wweuDBJyF3ffBiwN0vc0aKHnyNxx/S5di4N0ATp1OvyPy3WVxCXuCaHwDt4tzMU+cjX8XEK1siBsey1fCPOH/A==",
+  "success": true,
+  "projectFilePath": "/home/ec2-user/MicroServiceDesignPatterns/EventSourcingProject/EventSourcing.Shared/EventSourcing.Shared.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+}
